@@ -1,0 +1,97 @@
+#index header{
+        height: 140px;
+}
+#index .logo{
+        float: left;
+        margin:40px 0 0 5%;
+}
+#index .logo a{
+        display: block;
+        width: 79px;
+        height: 78px;
+        background-image: url("../images/bgpic.png");
+        background-position: 0 0;
+}
+
+#index .logo2{
+        float: right;
+        margin:32px 5% 0 0;
+}
+#index .logo2 a{
+        display: block;
+        width: 145px;
+        height: 72px;
+        background-image: url("../images/bgpic.png");
+        background-position: 352px 0px;
+
+}
+#index .logo2 a span{
+        writing-mode:tb-rl;
+        margin-left: 60px;
+        color: #cb121b;
+        font-weight: 900;
+}
+#index section ul{
+        width: 1500px;
+        margin-top: 100px;
+        
+}
+#index section li{
+	width: 100px;
+	height: 100px;
+        writing-mode:tb-rl;
+        margin-left:100px;
+        float: left;
+        cursor:pointer;   
+        position: relative;   
+}
+#index section .selected div {
+	width: 392px;
+	height: 577px;
+	position: absolute;
+	left: -240px;
+	top: -78px;
+	background-image: url(../images/sc.png);
+	z-index: -1;
+}
+#index section .selected .sel{
+	display: none;
+}
+#index section .dis{
+	display: none;
+}
+#index section .selected .dis{
+	height: 200px;
+	display: block;
+}
+#index section .selected .dis h2{
+	font-size: 30px;
+	color: #006cae;
+}
+#index section .selected .dis a{
+	margin-top: 30px;
+	color: #131313;
+}
+
+#index section li h2{
+        display: block;
+        font-family: "楷体";
+        font-size: 45px;
+        line-height: 0;
+}
+#index section li a{
+        display: block;
+        color: #be2237;
+        font-family: "楷体";
+        font-size: 16px;
+        font-weight: 300;
+        margin-top:16px;
+        text-transform:uppercase
+}
+
+
+
+
+
+
+
